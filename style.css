@@ -13,3 +13,14 @@ background-color: aliceblue;
     margin-right: auto;
     margin-left: auto;
 }
+@media screen and (max-width: 768px) {
+    p{
+        background-color: aliceblue;
+     }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    p{
+        background-color: aliceblue;
+     }
+ }
