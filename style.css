@@ -14,13 +14,13 @@ background-color: aliceblue;
     margin-left: auto;
 }
 @media screen and (max-width: 768px) {
-    p{
+    body{
         background-color: aliceblue;
      }
  }
  
  @media screen and (max-width: 480px) {
-    p{
+    body{
         background-color: aliceblue;
      }
  }
