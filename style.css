@@ -1,5 +1,4 @@
  body {
-min-width: 1080px;
 background-color: aliceblue;
  }
 .center table,
@@ -13,9 +12,4 @@ background-color: aliceblue;
 .center p {
     margin-right: auto;
     margin-left: auto;
-}
-@media screen and (max-width: 769px){
-	body {
-		min-width: initial;
-	}
 }
