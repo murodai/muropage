@@ -1,1 +1,3 @@
 theme:mimima
+plugins:
+  - jekyll-sitemap
