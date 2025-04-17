@@ -1,5 +1,5 @@
  body {
-background-color: aliceblue;
+background-color: wheat;
  }
 .center table,
 .center div,
@@ -16,7 +16,7 @@ background-color: aliceblue;
 
 @media screen and (max-width: 959px) {
  body {
-background-color: aliceblue;
+background-color: wheat;
  }
 .center table,
 .center div,
@@ -33,7 +33,7 @@ background-color: aliceblue;
 }
 @media screen and (max-width: 480px) {
  body {
-background-color: aliceblue;
+background-color: wheat;
  }
 .center table,
 .center div,
