@@ -1,4 +1,5 @@
  body {
+     overflow: auto; 
 color: white;
  }
 .center table,
