@@ -1,5 +1,4 @@
  body {
-     overflow: auto; 
 color: white;
  }
 .center table,
@@ -17,7 +16,7 @@ color: white;
 
 html {
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
