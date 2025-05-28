@@ -14,40 +14,7 @@ color: white;
     margin-right: auto;
     margin-left: auto;
 }
-
-@media screen and (max-width: 959px) {
- body {
-background-color: #000033;
-color: white;
- }
-.center table,
-.center div,
-.center p {
-    margin-right: auto;
-    margin-left: auto;
-}
-.center table,
-.center div,
-.center p {
-    margin-right: auto;
-    margin-left: auto;
-}
-}
-@media screen and (max-width: 480px) {
- body {
-background-color: #000033;
-color: white;
- }
-.center table,
-.center div,
-.center p {
-    margin-right: auto;
-    margin-left: auto;
-}
-.center table,
-.center div,
-.center p {
-    margin-right: auto;
-    margin-left: auto;
-}
+a {
+  color: gold;
+  text-decoration:none;
 }
