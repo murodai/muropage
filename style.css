@@ -1,19 +1,23 @@
+@font-face{
+   font-family: 'Oradano';
+   src: url('fonts/OradanoGSRR.ttf') format('truetype');
+   font-weight: normal;
+   font-style: norma;
+}
  body {
-background-color: wheat;
+   font-family: 'Oradano';
+    line-height: 2;
+   background-color: wheat;
  }
 .center table,
 .center div,
 .center p {
-    margin-right: auto;
-    margin-left: auto;
-}
-.center table,
-.center div,
-.center p {
+    line-height: 2;
     margin-right: auto;
     margin-left: auto;
 }
 a {
+    line-height: 2;
   color: darkred;
   text-decoration:none;
 }
