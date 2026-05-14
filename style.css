@@ -1,11 +1,11 @@
 @font-face{
-   font-family: 'Oradano';
-   src: url('fonts/OradanoGSRR.ttf') format('truetype');
+   font-family: 'Old';
+   src: url('fonts/Tsukuhou-35Point-Gothic.ttf') format('truetype');
    font-weight: normal;
    font-style: normal;
 }
  body {
-   font-family: 'Oradano';
+   font-family: 'Old';
     line-height: 2;
    background-color: wheat;
  }
