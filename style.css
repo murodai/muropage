@@ -1,6 +1,6 @@
 @font-face{
    font-family: 'Old';
-   src: url('fonts/ShipporiGothicB2-Bold.ttf') format('truetype');
+   src: url('fonts/ShipporiGothicB2-OTF-Bold.otf') format('opentype');
    font-weight: normal;
    font-style: normal;
 }
