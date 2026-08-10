@@ -1,3 +1,6 @@
+title: むろぺぇじ
+tagline: むろぺぇじ
+url: https://murodai.github.io/muropage/
 plugins:
   - jekyll-sitemap
   - jekyll-feed
