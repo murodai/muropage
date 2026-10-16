@@ -1,0 +1,34 @@
+\documentclass{standalone}
+\usepackage{xcolor}
+\definecolor{wheat}{HTML}{F6E3BE}
+\usepackage{musixtex}
+\usepackage{unicode-math}
+\setmainfont{Old Standard}
+\setmathfont{Old Standard Math}
+\setmathfont{Old Standard Math}[range={scr,bfscr},StylisticSet=01]
+\usepackage{contour}
+ \contourlength{0.03em}
+ \contournumber{120}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{music}
+	\nobarnumbers
+%	\systemnumbers
+%	\def\writebarno{\llap{\the\barno\barnoadd}}%
+%	\def\raisebarno{2\internote}%
+%	\def\shiftbarno{0.4\Interligne}%
+	\instrumentnumber{1}%%%%%%%楽器数
+	%\setname1{Piano} %%%%%%%%%楽器名
+	\setstaffs1{2} %%%%%%%段数
+	\setclef16
+	\generalsignature{-5} %%%%%調号
+	\generalmeter{\meterfrac24}
+	\hsize=106mm
+\startextract
+\Notes\ibbl0{4}2\qb0{4}\qb0{8}\zq{11}\qb0{13}\tbl0\qb0{8}\ibbl0{4}2\qb0{4}\qb0{8}\zq{10}\qb0{14}\tbl0\qb0{8}|\upz{8}\zq{6}\cl{8}\cu{*}\loff{\zcharnote{-2}{\contour{wheat}{2}}}\zcl{3}\ibbu0{6}0\zcharnote{16}{4}\roffset{.5}{\isluru0{13}}\qb0{6}\tbu0\roffset{.5}{\tslur0{13}}\roffset{.7}{\zcharnote{16}{5}}\qb0{=6}
+\zcharnote{15}{3}\roffset{.4}{\isluru0{13}}\ibu0{7}1\ibl1{4}1\zqbp1{3}\qbp0{7}\qb0{*}\roffset{2}{\nbbl1}\roffset{2}{\nbbu0}\qb0{*}\tbl1\roffset{.4}{\tslur0{14}}\roffset{.5}{\upz{14}\zcharnote{17}{2}\zcharnote{20}{4}}\zqb1{7}\tbu0\qb0{9}\en\bar
+\Notes\ibbl0{4}2\qb0{4}\qb0{8}\zq{11}\qb0{13}\tbl0\qb0{8}|\zcharnote{18}{1}\zcharnote{21}{3}\roffset{.5}{\isluru0{15}}\ibbu0{8}0\ibl1{6}{-2}\zqb1{6}\qb0{8}\tbbu0\zcharnote{18}{5}\roffset{.5}{\tslur0{15}}\qb0{10}\tbu0\tbl1\zcharnote{18}{1}\zcharnote{21}{2}\zqb1{3}\qb0{6}\en
+\zendextract
+\end{music}
+\end{document}
