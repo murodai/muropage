@@ -45,9 +45,9 @@
     const colors = ['#C62828', '#D32F2F', '#E64A19', '#F57C00', '#FBC02D', '#8B0000'];
 
     // サイズ・速度・透明度の設定
-    const LEAF_SCALE = 1.1; 
+    const LEAF_SCALE = 1.0; 
     const SPEED_SCALE = 0.7;
-    const LEAF_OPACITY = 0.4;
+    const LEAF_OPACITY = 0.3;
 
     class Leaf {
       constructor() {
